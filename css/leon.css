@@ -98,13 +98,13 @@ body {
 
 .header .logo {
     width: 60px;
-    perspective: 800px;
     transition: 1s;
     transform-style: preserve-3d;
 }
 
 .header .logo:hover {
     transform: rotateY(360deg);
+      perspective: 100px;
     width: 300px;
 }
 
